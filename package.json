@@ -7,7 +7,8 @@
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
     "react-scripts": "3.1.0",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "redux-starter-kit": "^0.6.3"
   },
   "scripts": {
     "start": "react-scripts start",
