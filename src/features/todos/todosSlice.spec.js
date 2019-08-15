@@ -127,3 +127,13 @@ describe('todos reducer', () => {
     ])
   })
 })
+
+describe('addTodo', () => {
+  it('should generate incrementing todo IDs', () => {
+    const action1 = addTodo('a')
+    const action2 = addTodo('b')
+
+    expect(action1.payload).toEqual({ id: 0, text: 'a' })
+    expect(action2.payload).toEqual({ id: 1, text: 'b' })
+  })
+})
