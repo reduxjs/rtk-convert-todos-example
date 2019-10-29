@@ -3,7 +3,7 @@ import { createSlice } from 'redux-starter-kit'
 let nextTodoId = 0
 
 const todosSlice = createSlice({
-  slice: 'todos',
+  name: 'todos',
   initialState: [],
   reducers: {
     addTodo: {
